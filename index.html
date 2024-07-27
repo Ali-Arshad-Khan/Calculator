@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calci-Project</title>
+    <link rel="stylesheet" href="/index.css">
+    
+ 
+</head>
+<body>
+    
+    <div class="container">
+        <img src="/imgUsed/img1.jpg" alt="" class="phone">
+
+    <div class="main">
+    
+    <div id="display">0</div><br>
+    <p>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('1');
+    tap();
+    "
+    
+    >1</button>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('2');
+    
+    
+    "
+    >2</button>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('3');
+    
+    "
+    >3</button>
+    <button class="btn orange-btn"
+    onclick="
+    updateString('+');
+    
+    "
+    >+</button><br>
+</p>
+<p>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('4');
+    
+    "
+    >4</button>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('5');
+    
+    "
+    >5</button>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('6');
+    
+    "
+    >6</button>
+    <button class="btn orange-btn"
+    onclick="
+    updateString('-');
+    
+    "
+    >-</button><br>
+</p>
+<p>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('7');
+    
+    "
+    >7</button>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('8');
+    
+    "
+    >8</button>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('9');
+    
+    "
+    >9</button>
+    <button class="btn orange-btn"
+    onclick="
+    updateString('*');
+    
+    "
+    >*</button><br>
+</p>
+<p>
+    <button class="clr-btn gray-btn"
+    onclick="
+    updateString('0');
+    
+    "
+    >0</button>
+    <button class="btn gray-btn"
+    onclick="
+    updateString('.');
+    
+    "
+    >.</button>
+    <button class="btn orange-btn"
+    onclick="
+    updateString('/');
+    
+    "
+    >/</button><br>
+</p>
+<p>
+
+    <button class=" gray-btn clr-btn"
+    onclick="
+    string='';
+    clr();
+    
+    localStorage.setItem('string',string);
+    
+    
+    "
+    >clear</button>
+    <button class="clr-btn bluebtn"
+    onclick="
+    string=eval(string);
+
+    localStorage.setItem('string',string);
+    show();
+    
+    "
+    
+    >=</button>
+</p>
+</div>
+</div>
+
+</body>
+<script src="/index.js"></script>
+</html>
