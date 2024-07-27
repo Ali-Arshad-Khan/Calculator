@@ -39,7 +39,7 @@
  body{
      
      position: relative;
-     background-color: rgb(254,147,0);
+    //background-color: rgb(254,147,0);
      font-family: Arial;
  }
  #display{
